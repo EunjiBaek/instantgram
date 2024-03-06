@@ -41,7 +41,7 @@ export const authOptions: NextAuthOptions = {
     },
   },
   pages: {
-    signIn: '/auth/signin',
+    signIn: 'https://instantgram-seven.vercel.app/auth/signin',
   },
 };
 export default NextAuth(authOptions);
